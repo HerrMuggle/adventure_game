@@ -43,15 +43,15 @@ python3 adventure.py
 ---
 
 ## 🗂 Directory Structure
-
+```
 adventure_game/
 ├── images/
-   └── adventure_game_demo.png  # Example screenshot
+│ └── adventure_game_demo.png # Game screenshot
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-└── adventure.py        # Main game script
-
+└── adventure.py # Main game script
+```
 ---
 
 ## 🛠️ Contributions
