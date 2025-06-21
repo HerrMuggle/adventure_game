@@ -4,8 +4,8 @@ import random
 
 # Game State Variables
 inventory = []
-time_remaining = 5
-player_hp = 10
+time_remaining = 5 # You have 5 'units' of time before night falls
+player_hp = 80
 gold = 0
 SAVE_FILE = "game_save.pkl"
 
@@ -37,7 +37,7 @@ def show_stats():
     print(f"\n❤️ HP: {player_hp} | 💰 Gold: {gold} | 🎒 Inventory: {inventory}\n")
 
 def intro():
-    print("\n🌲 You are in a mysterious forest. Your goal is to retrieve the golden egg from a dragon's cave and return to town before nightfall.")
+    print("\n🌲 You are in a mysterious forest.")
     print("What would you like to do?")
     print("1. Go to the Dragon's Cave")
     print("2. Explore the Forest")
