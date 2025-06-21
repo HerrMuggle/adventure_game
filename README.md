@@ -27,13 +27,15 @@ A terminal-based Python text adventure game where you must retrieve a golden egg
 ### Prerequisites
 - Python 3.8+
 - Git (to clone the repo)
+- User with sudo privileges 
 
 ### Run the Game
 ```bash
 git clone https://github.com/yourusername/adventure_game.git
 cd adventure_game
+sudo chmod +x adventure.py
 python3 adventure.py
-
+```
 ---
 
 ## 🧠 Lessons Learned
@@ -50,8 +52,8 @@ adventure_game/
 ├── adventure.py        # Main game script
 ├── README.md
 ├── images/
-│   └── adventure_game_demo.png  # Example screenshot
-└── .gitignore
+    └── adventure_game_demo.png  # Example screenshot
+
 
 ---
 
@@ -64,4 +66,3 @@ PRs welcome! If you find bugs or want to add new encounters, feel free to open a
 ## 📄 License
 
 MIT License
->>>>>>> 0b90992 (Initial commit of adventure game)
