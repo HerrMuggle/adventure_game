@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # adventure_game
 A terminal-based Python text adventure game where you must retrieve a golden egg from a dragon’s cave and return to town before nightfall—all while managing health, inventory, and time.
 =======
@@ -49,11 +48,12 @@ python3 adventure.py
 ## 🗂 Directory Structure
 
 adventure_game/
-├── adventure.py        # Main game script
-├── README.md
 ├── images/
-    └── adventure_game_demo.png  # Example screenshot
-
+   └── adventure_game_demo.png  # Example screenshot
+├── .gitignore
+├── LICENSE
+├── README.md
+└── adventure.py        # Main game script
 
 ---
 
